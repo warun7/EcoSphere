@@ -35,7 +35,7 @@ export default function WaitlistForm() {
     try {
       // Replace with your Firebase Function URL
       const response = await fetch(
-        "https://0y2px3zjnf.execute-api.eu-north-1.amazonaws.com/default/addToWaitlist",
+        "https://0y2px3zjnf.execute-api.eu-north-1.amazonaws.com/production",
         {
           method: "POST",
           headers: {
