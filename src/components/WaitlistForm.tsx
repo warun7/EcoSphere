@@ -33,30 +33,25 @@ export default function WaitlistForm() {
     }
 
     try {
-      // Replace with your Firebase Function URL
       const response = await fetch(
-        "https://0y2px3zjnf.execute-api.eu-north-1.amazonaws.com/production",
+        "https://0y2px3zjnf.execute-api.eu-north-1.amazonaws.com/prod/waitlist",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ email }),
+          mode: "no-cors",
         }
       );
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || "Failed to join waitlist");
-      }
-
       setStatus("success");
       setEmail("");
-    } catch (error) {
+    } catch (error: any) {
+      console.error("Submission error:", error);
       setStatus("error");
       setErrorMessage(
-        error instanceof Error ? error.message : "Something went wrong"
+        "Unable to join waitlist at this time. Please try again later."
       );
     }
   };
