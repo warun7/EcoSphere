@@ -3,34 +3,79 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "How does EcoSphere empower creators and sustainability?",
+    question: "What makes EcoSphere's subscriptions different?",
     answer:
-      "EcoSphere enables creators to tokenize their content while promoting environmental initiatives through NFTs and sustainable practices.",
+      "Fans subscribe through purchasable NFTs that can be resold or traded, creating lasting value for both creators and supporters.",
   },
   {
-    question: "What blockchain does EcoSphere use?",
+    question: "How do EcoSphere's fees compare to other platforms?",
     answer:
-      "We use Stellar blockchain for its energy-efficient consensus mechanism and low transaction costs.",
+      "With only 2-3% fees, EcoSphere is significantly better than traditional platforms like OnlyFans (20%) or YouTube (45% of ad revenue).",
   },
   {
-    question: "How do creators earn on EcoSphere?",
+    question: "How do creators benefit from secondary sales?",
     answer:
-      "Creators earn through multiple streams: direct subscriptions, NFT sales, royalties from secondary sales, and community engagement.",
+      "Automatic royalties from every NFT resale ensure creators earn passive income long after initial transactions.",
   },
   {
-    question: "What are the platform fees?",
+    question: "Is EcoSphere accessible worldwide?",
     answer:
-      "EcoSphere takes only 2-3% in fees, significantly lower than traditional platforms, maximizing creator earnings.",
+      "Built on Stellar blockchain, we enable low-cost global access including unbanked users through fast, affordable transactions.",
   },
   {
-    question: "How does the governance system work?",
+    question: "How does community governance work?",
     answer:
-      "Token holders participate in platform decisions through decentralized governance, ensuring community-driven development.",
+      "Token holders collectively decide platform evolution through decentralized voting, preventing unilateral policy changes.",
   },
   {
-    question: "Is EcoSphere available globally?",
+    question: "What monetization options exist beyond subscriptions?",
     answer:
-      "Yes, thanks to Stellar's blockchain, EcoSphere is accessible worldwide with minimal transaction fees.",
+      "Creators can tokenize exclusive events, premium content bundles, and unique fan experiences as tradeable NFTs.",
+  },
+  {
+    question: "How do fans get special benefits?",
+    answer:
+      "NFT ownership unlocks tiered rewards including early access, voting privileges, and personalized creator interactions.",
+  },
+  {
+    question: "Can fitness professionals use EcoSphere effectively?",
+    answer:
+      "Yes! Trainers offer workout program NFTs that fans can resell, generating perpetual royalties with each transfer.",
+  },
+  {
+    question: "How do musicians benefit from the platform?",
+    answer:
+      "Artists tokenize exclusive content and experiences while earning from both initial sales and secondary market activity.",
+  },
+  {
+    question: "What advantages do educators have?",
+    answer:
+      "Course creators earn when students resell educational NFTs after completion, creating sustainable income cycles.",
+  },
+  {
+    question: "How can gamers leverage EcoSphere?",
+    answer:
+      "Streamers offer in-game asset NFTs and premium content access that fans collect and trade within communities.",
+  },
+  {
+    question: "How does EcoSphere prevent censorship?",
+    answer:
+      "Our decentralized model eliminates centralized control, ensuring creators maintain direct fan relationships and revenue streams.",
+  },
+  {
+    question: "What are the main creator benefits?",
+    answer:
+      "Higher earnings, algorithmic independence, and continuous royalties from vibrant secondary NFT markets.",
+  },
+  {
+    question: "Why should fans care about NFT subscriptions?",
+    answer:
+      "True content ownership, potential value appreciation, and exclusive community access through digital collectibles.",
+  },
+  {
+    question: "How does EcoSphere improve the creator economy?",
+    answer:
+      "By combining blockchain transparency with sustainable monetization models that benefit all participants equally.",
   },
 ];
 
@@ -109,7 +154,7 @@ export default function FAQ() {
             "linear-gradient(to right, rgb(243 244 246) 0%, rgb(199 203 209) 55%, rgb(30 30 30) 90%)",
         }}
       >
-        We've got the answers
+        We've Got The Answers
       </h2>
 
       <div className="space-y-4">

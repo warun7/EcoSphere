@@ -4,15 +4,11 @@ export default function Header() {
   return (
     <div className="text-center mb-10">
       <div className="flex justify-center mb-4">
-      <h1
-        className="text-5xl mt-10 font-semibold bg-clip-text text-transparent text-center"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, rgb(243 244 246) 0%, rgb(199 203 209) 55%, rgb(30 30 30) 90%)",
-        }}
-      >
-        EcoSphere
-      </h1>
+        <h1
+          className="text-6xl mt-10 font-semibold bg-clip-text text-transparent text-center bg-stone-200"
+        >
+          EcoSphere
+        </h1>
       </div>
 
       <div className="inline-block bg-zinc-900/50 text-sm text-gray-300 px-2 rounded-full mb-6 border border-zinc-800">

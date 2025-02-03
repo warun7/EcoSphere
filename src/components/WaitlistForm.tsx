@@ -17,11 +17,9 @@ export default function WaitlistForm() {
   };
 
   const handleSubmit = async () => {
-    // Reset states
     setStatus("loading");
     setErrorMessage("");
 
-    // Validate email
     if (!email) {
       setStatus("error");
       setErrorMessage("Please enter your email address");
@@ -35,24 +33,22 @@ export default function WaitlistForm() {
     }
 
     try {
+      // Replace with your Firebase Function URL
       const response = await fetch(
-        "https://api.getwaitlist.com/api/v1/signup",
+        "https://0y2px3zjnf.execute-api.eu-north-1.amazonaws.com/default/addToWaitlist",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({
-            email: email,
-            waitlist_id: 23324,
-          }),
+          body: JSON.stringify({ email }),
         }
       );
 
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.message || "Failed to join waitlist");
+        throw new Error(data.error || "Failed to join waitlist");
       }
 
       setStatus("success");
@@ -103,15 +99,14 @@ export default function WaitlistForm() {
           </div>
         </div>
 
-        {/* Error Message */}
         {status === "error" && (
           <div className="mt-2 text-red-500 text-sm">{errorMessage}</div>
         )}
 
-        {/* Success Message */}
         {status === "success" && (
           <div className="mt-2 text-green-500 text-sm">
-            Successfully joined the waitlist! Check your email for confirmation.
+            Successfully joined the waitlist! You're now part of the EcoSphere
+            community.
           </div>
         )}
       </div>
