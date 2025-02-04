@@ -3,79 +3,55 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "What makes EcoSphere's subscriptions different?",
+    question: "What is EchoSphere?",
     answer:
-      "Fans subscribe through purchasable NFTs that can be resold or traded, creating lasting value for both creators and supporters.",
+      "EchoSphere is a creator-focused, blockchain-powered subscription platform that allows content creators to monetize their work through subscriptions and NFT-based memberships (for top-tier creators). We provide lower fees, censorship resistance, and true ownership over content.",
   },
   {
-    question: "How do EcoSphere's fees compare to other platforms?",
+    question:
+      "How is EchoSphere different from platforms like OnlyFans or YouTube?",
     answer:
-      "With only 2-3% fees, EcoSphere is significantly better than traditional platforms like OnlyFans (20%) or YouTube (45% of ad revenue).",
+      "Unlike traditional platforms that take high fees (up to 30%) and control creator revenue, EchoSphere offers: • Lower fees powered by Stellar blockchain. • Creator-owned content with no fear of demonetization. • NFT access (for top creators) to enable resale royalties. • Fiat & crypto payments for global accessibility.",
   },
   {
-    question: "How do creators benefit from secondary sales?",
+    question: "How do creators make money on EchoSphere?",
     answer:
-      "Automatic royalties from every NFT resale ensure creators earn passive income long after initial transactions.",
+      "Creators can earn through: 1. Subscription-based revenue (Monthly/Yearly Memberships). 2. One-time content unlocks. 3. NFT-based access (For high-tier creators), allowing fans to buy/sell memberships while creators earn royalties.",
   },
   {
-    question: "Is EcoSphere accessible worldwide?",
+    question: "Can I pay using fiat (USD, EUR) or just crypto?",
     answer:
-      "Built on Stellar blockchain, we enable low-cost global access including unbanked users through fast, affordable transactions.",
+      "Yes! We support both fiat (credit/debit cards, Apple Pay, Google Pay) and crypto payments (XLM, USDC, etc.) via a secure on-ramp/off-ramp system.",
   },
   {
-    question: "How does community governance work?",
+    question: "Who can create content on EchoSphere?",
     answer:
-      "Token holders collectively decide platform evolution through decentralized voting, preventing unilateral policy changes.",
+      "Any creator can join, but NFT-based memberships are reserved for creators who surpass a certain subscriber threshold to ensure exclusivity and demand.",
   },
   {
-    question: "What monetization options exist beyond subscriptions?",
+    question: "Is EchoSphere decentralized?",
     answer:
-      "Creators can tokenize exclusive events, premium content bundles, and unique fan experiences as tradeable NFTs.",
+      "Yes! EchoSphere uses Stellar's blockchain to enable fast, low-cost transactions while ensuring creator content remains owned by them, not the platform.",
   },
   {
-    question: "How do fans get special benefits?",
+    question: "What are the fees on EchoSphere?",
     answer:
-      "NFT ownership unlocks tiered rewards including early access, voting privileges, and personalized creator interactions.",
+      "We charge a much lower platform fee than traditional platforms (which take 20-30%). Exact fee structures will be announced soon, but they will be one of the lowest in the industry.",
   },
   {
-    question: "Can fitness professionals use EcoSphere effectively?",
+    question: "How can I join the waitlist?",
     answer:
-      "Yes! Trainers offer workout program NFTs that fans can resell, generating perpetual royalties with each transfer.",
+      'You can sign up for early access by clicking the "Join the Waitlist" button on our homepage. Early users will get exclusive perks and first access to the platform.',
   },
   {
-    question: "How do musicians benefit from the platform?",
+    question: "When will EchoSphere officially launch?",
     answer:
-      "Artists tokenize exclusive content and experiences while earning from both initial sales and secondary market activity.",
+      "We are currently in the development phase, and the first beta version will be launched later this year. Stay tuned for updates by joining the waitlist!",
   },
   {
-    question: "What advantages do educators have?",
+    question: "Is EchoSphere safe and secure?",
     answer:
-      "Course creators earn when students resell educational NFTs after completion, creating sustainable income cycles.",
-  },
-  {
-    question: "How can gamers leverage EcoSphere?",
-    answer:
-      "Streamers offer in-game asset NFTs and premium content access that fans collect and trade within communities.",
-  },
-  {
-    question: "How does EcoSphere prevent censorship?",
-    answer:
-      "Our decentralized model eliminates centralized control, ensuring creators maintain direct fan relationships and revenue streams.",
-  },
-  {
-    question: "What are the main creator benefits?",
-    answer:
-      "Higher earnings, algorithmic independence, and continuous royalties from vibrant secondary NFT markets.",
-  },
-  {
-    question: "Why should fans care about NFT subscriptions?",
-    answer:
-      "True content ownership, potential value appreciation, and exclusive community access through digital collectibles.",
-  },
-  {
-    question: "How does EcoSphere improve the creator economy?",
-    answer:
-      "By combining blockchain transparency with sustainable monetization models that benefit all participants equally.",
+      "Yes! We use blockchain security, encrypted payments, and Stellar's robust network to ensure secure transactions and privacy for both creators and fans.",
   },
 ];
 
